@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zhulin.blogInfo</groupId>
-    <artifactId>my-blog-layui</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <groupId>space.jaytan.blog</groupId>
+    <artifactId>jaytan-blog</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>my-blog-layui</name>
-    <description>your personal blogInfo</description>
+    <name>jaytan-blog</name>
+    <description>阿推小站-博客笔记项目代码</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
