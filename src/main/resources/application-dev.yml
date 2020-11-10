@@ -1,10 +1,10 @@
 server:
-  port: 11015
+  port: 10011
 
 spring:
   datasource:
     name: myBlog
-    url: jdbc:mysql://127.0.0.1:18806/jaytan-blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+    url: jdbc:mysql://120.24.90.121:18806/jaytan-blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
     username: root
     password: jaytan@123
     type: com.alibaba.druid.pool.DruidDataSource
@@ -59,7 +59,12 @@ spring:
     servlet:
       content-type: text/html
 
-
+mybatis-plus:
+  type-aliases-package: com.site.blog.entity
+  mapper-locations: classpath*:mapper/*.xml
+  global-config:
+    db-config:
+      table-prefix: "tb_"
 logging:
   level.com.site.blog: debug
 
