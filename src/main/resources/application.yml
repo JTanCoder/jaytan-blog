@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: prod
+    active: dev
 
 mybatis-plus:
   type-aliases-package: com.site.blog.entity

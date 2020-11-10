@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{width: 100%;margin: 0 auto;height: 300px;background: #005ED9;background-size:100% 100%;overflow: hidden;}
+.banner_left{float: left;position: relative;margin-top: 60px;}
+.banner_left img{display: block;margin-bottom: 40px;}
+.radio_green{background: url(../images/radio_green.png)no-repeat;width: 28px;height: 26px;display: block;position: absolute;top: -50px;left: 45px;}
+.radio_pink{background: url(../images/radio_pink.png)no-repeat;width: 29px;height: 31px;display: block;position: absolute;top: 85px;left: -31px;}
+.radio_yellow{background: url(../images/radio_yellow.png)no-repeat;width: 29px;height: 31px;display: block;position: absolute;bottom: -45px;left: 120px;}
+.banner_right{float: right;}
+.banner_right img{width: 646px;height:280px;transition: 1.2s all ease;float: right;}
+.banner img:hover{transform: scale(1.05);}
+.banner_text{font-size: 70px;color: #fff;font-family: "方正综艺简体";margin-bottom: 25px;padding-left: 30px;}
+.banner_text2{font-size: 30px;color: #fff;;font-family: "微软雅黑";opacity: 0.8;padding-left: 33px;}
+/*bannerͼ*/
+/*mains*/
+/*第一层内容s*/
+.main{width:100%;margin: 0 auto;background: #fff;}
+.main .main_con1{width: 100%;margin-top: 79px;}
+.main .main_con1 .con1_left{width: 54%;float: left;}
+.main .main_con1 .con1_left img{width: 493px;height: 287px;}
+.main .main_con1 .con1_left .left_tatle{position: absolute;bottom: 62px;left: 22%;}
+.main .main_con1 .con1_left .left_tatle p{color: #00A0E9;text-align: center;}
+.main .main_con1 .con1_left .left_tatle .tatle_p1{font-size: 36px;}
+.main .main_con1 .con1_left .left_tatle .tatle_p2{font-size: 24px;}
+.main .main_con1 .con1_left .left_img{position: relative;margin-left: 101px;width: 492px;height: 287px;}
+.main .main_con1 .con1_left .left_img a{width: 67px;position: absolute;height: 67px;border-radius: 50%;background: #35b4ec;text-align: center;line-height: 67px;color: #FFFFFF;font-size: 16px;opacity: 0;display: block;background: url(../images/dynamic_cloud16.png) no-repeat;z-index: 100;}
+.main .main_con1 .con1_left .left_img .img_p1{bottom: 50px;left: 0;animation: move1 7s 1s forwards ease;}
+@keyframes move1{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+.main .main_con1 .con1_left .left_img .img_p2{top: 63px;left: 10px;animation: move2 6s 0.5s forwards ease;}
+@keyframes move2{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+.main .main_con1 .con1_left .left_img .img_p3{top: -34px;left: 100px;animation: move3 4s 0s forwards ease;}
+@keyframes move3{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+.main .main_con1 .con1_left .left_img .img_p4{top: 10px;right: 225px;animation: move4 4s 0s forwards ease;}
+@keyframes move4{
+	from{opacity: 0;}
+	to{opacity:1;transform: rotateY(360deg);}
+}
+.main .main_con1 .con1_left .left_img .img_p5{top: 75px;right: 153px;animation: move5 6s 0.5s forwards ease;}
+@keyframes move5{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+.main .main_con1 .con1_left .left_img .img_p6{bottom: 50px;right: 137px;animation: move6 7s 1s forwards ease;}
+@keyframes move6{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+
+.main .main_con1 .con1_right{width: 46%;float: right;}
+.main .main_con1 .con1_right h3{font-size: 28px;color: #333333;padding: 10px 0 0 76px;}
+.main .main_con1 .con1_right p{font-size: 15px;color: #4a4a4a;padding: 20px 70px 0 76px;line-height: 2;}
+/*第一层内容底部s*/
+.main .main_con1 .con1_bottom{width: 100%;margin: 16px 0 16px 0;}
+.main .main_con1 .con1_bottom ul{background: url(../images/dynamic_cloud13.png) no-repeat;background-size: 1140px 72px;width: 1140px;height: 72px;margin-left: 30px;}
+.main .main_con1 .con1_bottom ul li{float: left;text-align: center;width: 142px;}
+.main .main_con1 .con1_bottom ul li a{display: inline-block;margin-top: 15px;color: #c9c9c9;}
+.main .main_con1 .con1_bottom ul li a p{margin-top: 5px;font-size: 12px;}
+.main .main_con1 .con1_bottom ul li a:hover img{transform: rotateY(360deg);transition: all ease 1s;}
+
+/*第二层内容底部s*/
+.main .main_con2{width: 100%;}
+.main .main_con2 .con2_left{width: 50%;float: left;}
+.main .main_con2 .con2_left h3{font-size: 28px;color: #333333;padding: 45px 0 0 110px;}
+.main .main_con2 .con2_left p{font-size: 15px;color: #4a4a4a;padding: 20px 40px 0 110px;line-height: 2;}
+.main .main_con2 .con2_right{width: 50%;float: right;margin-bottom: 30px;}
+.main .main_con2 .con2_right img{width: 463px;height: 247px;}
+.main .main_con2 .con2_right .left_tatle{position: absolute;bottom: 31px;left: 46%;}
+.main .main_con2 .con2_right .left_tatle p{color: #90c31f;text-align: center;}
+.main .main_con2 .con2_right .left_tatle .tatle_p1{font-size: 36px;}
+.main .main_con2 .con2_right .left_tatle .tatle_p2{font-size: 24px;}
+.main .main_con2 .con2_right .left_img{position: relative;margin-left: 15px;width: 493px;height: 287px;}
+.main .main_con2 .con2_right .left_img a{position: absolute;width: 67px;height: 67px;border-radius: 50%;background: #a6cf4c;text-align: center;line-height: 67px;color: #FFFFFF;font-size: 16px;opacity: 0;display: block;background: url(../images/dynamic_cloud17.png) no-repeat;z-index: 100;}
+.main .main_con2 .con2_right .left_img .img_p1{bottom: 104px;left: 130px;animation: move7 3s 3s forwards ease;}
+@keyframes move7{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+.main .main_con2 .con2_right .left_img .img_p2{top: 54px;right: 117px;animation: move8 4s 3.5s forwards ease;}
+@keyframes move8{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+.main .main_con2 .con2_right .left_img .img_p3{bottom: 106px;right: 39px;animation: move9 5s 4s forwards ease;}
+@keyframes move9{
+	from{opacity: 0;}
+	to{opacity: 1;transform: rotateY(360deg);}
+}
+/*第三层内容底部s*/
+.main .main_con3{width: 100%;}
+.main .main_con3 .con3_top{width: 100%;}
+.main .main_con3 .con3_top img{width: 1200px;height: 29px;}
+.main .main_con3 .bottom_con3{margin: 45px 0 60px 0;}
+.main .main_con3 .bottom_con3 .bottom_left{float: left;width: 43%;}
+.main .main_con3 .bottom_con3 .bottom_left img{margin-left: 39px;width: 426px;height: 214px;}
+.main .main_con3 .bottom_con3 .bottom_right{float: right;width: 57%;}
+.main .main_con3 .bottom_con3 .bottom_right h3{padding-top: 16px;font-size: 28px;color: #333333;}
+.main .main_con3 .bottom_con3 .bottom_right p{font-size: 15px;color: #4a4a4a;line-height: 2;padding: 20px 105px 0 0;}
+
