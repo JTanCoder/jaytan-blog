@@ -92,11 +92,11 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.18</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
@@ -115,6 +115,13 @@
             <artifactId>gson</artifactId>
         </dependency>
 
+        <!--引入common-->
+        <dependency>
+            <groupId>space.pst.jaytan.common</groupId>
+            <artifactId>jaytan-common</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -122,7 +129,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.0</version>
             </plugin>
         </plugins>
     </build>
+
+
+
 </project>

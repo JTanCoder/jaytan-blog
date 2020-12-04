@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.site.blog.dao.BlogInfoMapper">
+<mapper namespace="space.pst.jaytan.blog.dao.BlogInfoMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.site.blog.entity.BlogInfo">
+    <resultMap id="BaseResultMap" type="space.pst.jaytan.blog.entity.BlogInfo">
         <id column="blog_id" property="blogId" />
         <result column="blog_title" property="blogTitle" />
         <result column="blog_sub_url" property="blogSubUrl" />

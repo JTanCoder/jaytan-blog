@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     name: blog
-    url: jdbc:mysql://127.0.0.1:3306/blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
-    username: test
-    password: 12345
+    url: jdbc:mysql://127.0.0.1:18806/jaytan-blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
+    username: root
+    password: jaytan@123
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     druid:

@@ -1,0 +1,43 @@
+package space.pst.jaytan.blog.service;
+
+import space.pst.jaytan.blog.controller.vo.SimpleBlogListVO;
+import space.pst.jaytan.blog.entity.BlogInfo;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 博客信息表 服务类
+ * </p>
+ *
+ * @author: 南街
+ * @since 2019-08-27
+ */
+public interface BlogInfoService extends IService<BlogInfo> {
+
+    /**
+     * 返回最新的五条文章列表
+     * @param
+     * @return java.util.List<com.site.blog.controller.vo.SimpleBlogListVO>
+     * @date 2019/9/4 9:04
+     */
+    List<SimpleBlogListVO> getNewBlog();
+
+    /**
+     * 返回点击量最多的五条文章
+     * @param
+     * @return java.util.List<com.site.blog.controller.vo.SimpleBlogListVO>
+     * @date 2019/9/4 9:15
+     */
+    List<SimpleBlogListVO> getHotBlog();
+
+    /**
+     * 清除文章
+     * @param blogId
+     * @return boolean
+     * @date 2020/1/29 21:54
+     */
+    boolean clearBlogInfo(Long blogId);
+
+}

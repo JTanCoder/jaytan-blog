@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.site.blog.dao.BlogCommentMapper">
+<mapper namespace="space.pst.jaytan.blog.dao.BlogCommentMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.site.blog.entity.BlogComment">
+    <resultMap id="BaseResultMap" type="space.pst.jaytan.blog.entity.BlogComment">
         <id column="comment_id" property="commentId" />
         <result column="blog_id" property="blogId" />
         <result column="commentator" property="commentator" />
